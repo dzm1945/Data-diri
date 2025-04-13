@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Diri - [Dzulfikar Ainul Mulya]</title>
+  <style>
+    h1 {
+  text-shadow: 2px 2px 2px red;
+}
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #498aa4;
+      color: rgb(158, 20, 20);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 10;
+    }
+
+    .info-bar {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #683edc8f;
+      color: white;
+      padding: 1px 0;
+      font-size: 14px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    
+    .info-item {
+  flex: 1;
+  text-align: center;
+  padding: 15px 10px;
+  border-bottom: 1px solid #444;
+  border-right: 1px solid #444;
+  box-sizing: border-box;
+}
+
+.info-item:nth-child(5n) {
+  border-right: none;
+}
+
+
+.content {
+  padding-top: 100px;
+  text-align: center;
+}
+
+
+.info-item:hover {
+  background-color: #751d1dae;
+  cursor: default;
+}
+
+
+@media (max-width: 600px) {
+  .info-item {
+    flex: 100%;
+    border-right: none;
+  }
+
+  .info-item:last-child {
+    border-bottom: none;
+  }
+}
+
+
+    .card {
+      background-color: #3d292936;
+      padding: 30px;
+      border-radius: 50px;
+      box-shadow: 12px 5px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 550px;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      object-fit: cover;
+      margin-bottom: 30px;
+    }
+
+    .card h1 {
+      margin: 10px 30px;
+      font-size: 24px;
+    }
+
+    .card p {
+      margin: 10px 0;
+    }
+
+    .socials a {
+      margin: 20px 10px;
+      text-decoration: none;
+      color: #7121d2;
+    }
+
+    .socials a:hover {
+      text-decoration: underline;
+    }
+
+    #bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+audio {
+  display: none;
+}
+
+
+  </style>
+</head>
+<body>
+    <audio autoplay loop hidden>
+        <source src="d:\Lagu\Sabaton - The Final Solution (Music Video).mp3" type="audio/mpeg">
+      </audio>
+
+  <div class="card">
+
+    <div class="info-bar">
+        <div class="info-item">👤 Nama: Dzulfikar A.M </div>
+        <div class="info-item">📧 Email: dzulfikarainulmulya@gmail.com</div>
+        <div class="info-item">📱 Telepon: 0852-1823-8715</div>
+        <div class="info-item">📍 Lokasi: Kota Tangerang</div>
+        <div class="info-item">🌐 Instagram: @ey_dzm</div>
+      </div>
+    
+      <div class="content">
+        <h1>IS ME</h1>
+        <h1>Data Diri Saya Secara Singkat</h1>
+      </div>
+
+    <video autoplay muted loop id="bg-video">
+        <source src="d:\Lagu\Backgroud.mp4" type="video/mp4" />
+        Browser Anda tidak mendukung video.
+      </video> 
+    <img src="d:\Lagu\FOTO PROFILE.jpeg" alt="Foto Profil" />
+    <h1>Dzulfikar Ainul Mulya</h1>
+    <p><strong>Email:</strong> dzulfikarainulmulya@gmail.com</p>
+    <p><strong>Telepon:</strong> 0852-1823-8715</p>
+    <p><strong>Tanggal Lahir:</strong> - </p>
+    <p><strong>Umur:</strong> - </p>
+    <p><strong>"Saya adalah Mahasiswa Universitas Muhammadyah Kota tangerang</strong>"</p>
+    <p><strong>"Jurusan Prodi Teknik Informatika"</strong></p>
+    <div class="socials">
+      <a href="https://www.instagram.com/ey_dzm?igsh=bGNubThrYWN3aWk1" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/in/dzulfikarainulmulya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+
+    </div>
+  </div>
+</body>
+</html>
+  
